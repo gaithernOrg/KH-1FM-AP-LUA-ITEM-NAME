@@ -72,6 +72,14 @@ assets:
   method: copy
   source:
   - name: exchange/remastered/btltbl.bin/AP_btltbl_bin_Word.bin
+- name: exchange/remastered/btltbl.bin/US_Word.bin
+  method: copy
+  source:
+  - name: exchange/remastered/btltbl.bin/AP_Word.bin
+- name: exchange/remastered/btltbl.bin/US_btltbl_bin_Word.bin
+  method: copy
+  source:
+  - name: exchange/remastered/btltbl.bin/AP_btltbl_bin_Word.bin
 - name: exchange/UK_treasure.ev
   method: copy
   source:
